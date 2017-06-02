@@ -14,8 +14,8 @@
     <string name="menu_share">Share</string>
 
     <!-- main view -->
-    <string name="main_saturday">Friday, 17 June</string>
-    <string name="main_sunday">Saturday, 18 June</string>
+    <string name="main_saturday">Saturday, 17 June</string>
+    <string name="main_sunday">Sunday, 18 June</string>
     <string name="main_favorites">Favorites</string>
     <string name="main_search">Search</string>
 

@@ -241,7 +241,7 @@ public class DisplayEvent extends SherlockActivity {
 	public void share() {
 		final Intent intent = new Intent(android.content.Intent.ACTION_SEND);
 		intent.setType("text/plain");
-		String extra = "Devconf 2015 \"" + event.getTitle() +
+		String extra = "Devconf 2017 \"" + event.getTitle() +
 				"\" http://devconf.ru/offers/" + event.getId() + " #devconf";
 		intent.putExtra(Intent.EXTRA_TEXT, extra);
 		startActivity(Intent.createChooser(intent, getString(R.string.share)));
